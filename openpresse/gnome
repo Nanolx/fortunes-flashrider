@@ -1,0 +1,33 @@
+
+gucharmap
+
+commit c9fcbf4f02a3b24c7920265175a3fe74f8b8102c
+Author: Christian Persch
+Date:   Thu Mar 11 20:57:49 2010 +0100
+
+  Fuck this fucking macro fucking with the fucking deprecations
+
+%
+
+sawfish
+
+commit 7a244e710fcf5d912abc1a2e4d4c2ae317f37dc4
+Author: Timo Korvola <tkorvola@iki.fi>
+Date:   Sat Sep 22 19:37:00 2007 +0200
+
+    Changed an ugly cond into an ugly when.
+
+    Semantics are still the same.
+
+%
+
+rep-gtk
+
+commit b92a4dd61fd6cfceec269333de86033d7c6e27cb
+Author: Christopher Roy Bratusek <zanghar@freenet.de>
+Date:   Sat Aug 1 20:10:41 2009 +0200
+
+    began implementing GtkTreeView *sweat*
+
+%
+

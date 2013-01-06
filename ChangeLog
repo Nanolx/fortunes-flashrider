@@ -1,0 +1,96 @@
+RELEASE::1.10
+
+*	   (PL/OP/LF/GB/WH)
+* Cookies: 492/73/205/137/44) (+42/+8/0/+6/+44)
+
+RELEASE::1.00
+
+*          (PL/OP/LF/GB)
+* Cookies: 450/65/205/131 (+50/+1/+14/+66)
+
+RELEASE::0.90 (BB-Styles Edition):
+
+(ProLinux/OpenPresse/LinuxFor{um,en}/GermanBash)
+* Cookies 400/64/191/65 (+49/0/+132/+45)
+
+RELEASE::0.80:
+
+>> Die linuxforum.de Kekse enthalten jetzt auch
+>> linuxforen.de Kekse. Diese sind mit LXF am
+>> Anfang gekennzeichnet...
+
+>> NEU NEU NEU: german-bash.org Kekse!!!
+
+(ProLinux/OpenPresse/LinuxFor{um,en}/GermanBash)
+* Cookies 351/64/59/20 (+55/+6/+42/+20)
+
+RELEASE::0.70:
+
+* Cookies: 296/58/17 (+44/+5/+0)
+
+RELEASE::0.60:
+
+* Cookies: 252/53/17 (+39/+17/+3)
+* some small cleanups
+
+RELEASE::0.50:
+
+* Major revision of Makefile
+* Renamed to FortunesFlashrider
+* Categories: prolinux openpresse
+* Categories: linuxforum [NEW]
+
+* Cookies: 213/36/14 (+12/+4/+14)
+
+RELEASE::0.40:
+
+* Cookies: 201/32 (+38/+28)
+
+RELEASE::0.31
+
+* mkdat ->> Makefile
+
+* OpenPresse (Explicit PL Edition) Added
+	* 4 Cookies
+
+* 2007.06 Der KDE + illegale Robben Keks ist wohl verschütt gegangen…
+
+* Cookies: 163/4 (+4/+4)
+
+RELEASE::0.30
+
+* Cookies: 159 (+28)
+
+RELEASE::0.25
+
+* mkdat really don't hardcode sudo
+
+* Cookies: 121 (+8)
+
+RELEASE::0.20
+
+* mkdat improved help message
+* mkdat added install "rule"
+* mkdat don't hardcode sudo
+
+* Cookies: 113 (+46)
+
+RELEASE::0.10
+
+* BUG #1: mkdat does not correctly create the prolinux file
+
+* mkdat: improved ending message
+* mkdat: added clean "rule"
+* mkdat: added help message
+
+PREVIEW::2009-07-05
+
+* mkdat: improved
+* AUTHORS: added
+* README: added
+
+* Cookies: 67 (+31)
+
+PREVIEW::2009-07-01
+
+* Cookies: 36

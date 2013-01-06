@@ -1,0 +1,725 @@
+
+GIMP configure-script
+
+[...]
+
+checking for perl... /usr/bin/perl
+checking for perl version >= 5.004_04... yes
+checking for vsnprintf... yes
+checking for intelligent life... not found              
+checking for _exit... yes
+configure: creating ./config.status
+config.status: creating gimp-1.2.1
+config.status: creating gimprc
+config.status: creating gimprc_user
+config.status: creating gimprc-1.2.5
+
+[...]
+
+%
+
+Enlightenment configure-script
+
+checking for mike in mae_ling... yes
+
+checking for mass_quantities_of_bass_ale in -lFridge... no
+  Warning: No ales were found in your refrigerator. We highly suggest that you
+  rectify this situation immediately.
+
+checking for life_signs in -lKenny... no
+  Oh my god, they killed Kenny! You bastards!
+
+%
+
+KVIRC configure-script
+
+checking whether to enable support for font anti-aliasing... yes
+checking whether to use new pics... yes
+checking for the validity of Maxwell's laws on this machine... ok
+checking if e=mc²... yes, enabling quantum mechanics
+checking if this machine passes the Turing Test... no, building without AI :(
+checking if we can safely swap on /dev/fd0... yes
+checking if we can blame it on Njård... yes
+checking if we finally can compile the plugins... yes
+checking if we finally have to compile the KDE support... yes
+
+%
+
+der was ich mal in einem logfile fand:
+
+  time is going backwards marty...i will fix that
+
+oder so ähnlich, weil ich die uhr nach hinten verstellt hatte....
+
+%
+
+HERMES configure-script
+
+checking whether x86 assembly is desired... yes
+checking for debug level... 0
+
+If two people are in a room ...
+
+checking for long... yes
+checking size of long... 4
+checking for int... yes
+checking size of int... 4
+checking for char... yes
+checking size of char... 1
+checking for short... yes
+checking size of short... 2
+
+... and five walk out ...
+
+checking whether byte ordering is bigendian... no
+no
+checking for money... none left :(
+checking for assembler support... Linux i686, assembler routines enabled!
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/hrconfig.h
+config.status: executing depfiles commands
+
+... how many have to walk in for the room to be empty ?
+
+Turn on your -O6 now!
+Welcome to Hermes 1.3.2!
+
+%
+
+Das GNOME-Panel 2.2.0.1
+
+Dieses Program ist verantwortlich für das Starten anderer Anwendungen,
+das Einbetten von kleinen Applets in sich selber, den Weltfrieden, und
+grundlose X-Abstürze.
+
+%
+
+Entnommen aus der /etc/ppp/auth-up von SuSE 9.0
+
+
+auth-up)
+NAME='up '
+if [ "$AUTHNAME" = 'BillGates' ]; then
+	/sbin/isdnctrl hangup $IFNAME
+fi
+;;
+
+%
+
+bei kvirc gibts auch die configure-Option --with-pizza - wofür auch immer die
+gut ist. 
+
+%
+
+applicom.c:532:2: Warnung: #warning "Je suis stupide. DW. - copy*user in cli"
+
+%
+
+/var/tmp/portage/openoffice-1.1.1-r1/work/oo_1.1.1_src/solver/645/unxlngi4.pro/inc/svtools/sbx.hxx:195:
+warning: `class SbxAlias' only defines a private destructor and has no friends 
+
+%
+
+Hab mir mal ne Bootdiskette gebastelt und da sagte der Kernel bei jedem
+login-Versuch meinerseits:
+
+you do not exist - go away please
+
+%
+
+ch hab mal mit dem Kernel auf Debian rumgespielt und aus Uebermuedung einiges
+falsch gemacht. Beim Booten bekam ich dann diese Meldung:
+
+  "I have no root and I want to scream"
+
+Tja, vermutlich waren die Module fuer die Speaker noch nicht geladen 
+
+%
+
+Hatte vor einiger Zeit mal den SuSE Linux Office Server installiert.
+Wenn man sich da als normaler Benutzer mittels su root-Rechte verschaffen wollte
+und man das Passwort falsch eingab kamen so nette Meldungen wie:
+
+  Denkst du, wie du tippst?
+
+Das konnte man beliebig oft machen, es kam immer was neues (und ich habs oft
+probiert ;-)) 
+
+%
+
+Das hab ich gerade bei yaboot (Bootloader für PPCs) gefunden.
+
+mkofboot: Creating HFS filesystem on /dev/hda2...
+mkofboot: Installing first stage bootstrap /usr/lib/yaboot/ofboot onto /dev/hda2...
+mkofboot: Installing primary bootstrap /usr/lib/yaboot/yaboot onto /dev/hda2...
+mkofboot: Installing /etc/yaboot.conf onto /dev/hda2...
+mkofboot: Setting attributes on ofboot...
+mkofboot: Setting attributes on yaboot...
+mkofboot: Setting attributes on yaboot.conf...
+mkofboot: Blessing /dev/hda2 with Holy Penguin Pee...
+mkofboot: Updating OpenFirmware boot-device variable in nvram...
+mkofboot: Installation complete.
+
+%
+
+static void happy_meal_tcvr_write(struct happy_meal *hp,
+                                  unsigned long tregs, int reg,
+                                  unsigned short value)
+{
+        int tries = TCVR_WRITE_TRIES;
+                                                                                                              
+        ASD(("happy_meal_tcvr_write: reg=0x%02x value=%04x\n", reg, value));
+                                                                                                              
+        /* Welcome to Sun Microsystems, can I take your order please? */
+        if (!(hp->happy_flags & HFLAG_FENABLE))
+                return happy_meal_bb_write(hp, tregs, reg, value);
+                                                                                                              
+        /* Would you like fries with that? */
+        hme_write32(hp, tregs + TCVR_FRAME,
+                    (FRAME_WRITE | (hp->paddr << 23) |
+                     ((reg & 0xff) << 18) | (value & 0xffff)));
+        while (!(hme_read32(hp, tregs + TCVR_FRAME) & 0x10000) && --tries)
+                udelay(20);
+                                                                                                              
+        /* Anything else? */
+        if (!tries)
+                printk(KERN_ERR "happy meal: Aieee, transceiver MIF write bolixed\n");
+                                                                                                              
+        /* Fifty-two cents is your change, have a nice day. */
+}
+
+%
+
+GSTreamer configure-script
+
+configure: WARNING: Sissy ! By asking to not build the tests known to fail, you
+hereby waive your right to customer support. If you do not agree with this EULA,
+please press Ctrl-C before the next line is printed. By allowing the next line
+to be printed, you expressly acknowledge your acceptance of this EULA.
+
+%
+
+Perl configure-script
+
+*** WHOA THERE!!! ***
+    The previous value for $usemultiplicity on this machine was "undef"!
+        Keep the previous value? [y] n
+
+	Hmm...  Looks kind of like an OSF/1 system, but we'll see...
+
+	Congratulations.  You aren't running Eunice.
+
+	It's not Xenix...
+
+	Nor is it Venix...
+	Use which C compiler? [cc]
+
+	Checking for GNU cc in disguise and/or its version number...
+	You are not using GNU cc.
+
+	Hmm...  Doesn't look like a MIPS system.
+
+	Now, how can we feed standard input to your C preprocessor...
+	Keeping your previous cppstdin wrapper.
+	Configure: cppstdin: not found
+	Good old cppstdin  does not seem to be of any help...
+	Maybe "cc -E" will work...
+	Nope...maybe "cc -E -" will work...
+	Nope...maybe "cc -P" will work...
+	Nope...maybe "cc -P -" will work...
+	No such luck, maybe "/usr/local/bin/cpp" will work...
+	It works!
+	Perhaps can we force cc -E using a wrapper...
+	Yup, we can.
+	[...]
+	You may also choose to try maximal 64-bitness.  It means using as much
+	64-bitness as possible on the platform.  This in turn means even more
+	binary incompatibilities.  On the other hand, your platform may not
+	have any more 64-bitness available than what you already have chosen.
+	<-  WTF???
+
+	If this doesn't make any sense to you, just accept the default 'y'.
+	(The default has been chosen based on your configuration.)
+	Try to use maximal 64-bit support, if available? [y]
+
+%
+
+Evidence Fehlermeldung
+
+ORE ERROR: Ecore Magic Check Failed!!!
+*** IN FUNCTION: ecore_timer_del()
+  Input handle is wrong type
+      Expected: f7d713f4 - Ecore_Timer (Timer)
+          Supplied: 00000000 - <UNKNOWN>
+	  *** NAUGHTY PROGRAMMER!!!
+	  *** SPANK SPANK SPANK!!!
+	  *** Now go fix your code. Tut tut tut!
+
+	  Killed
+
+%
+
+drivers/usb/printer.c:
+
+static char *usblp_messages[] = { "ok", "out of
+> paper", "off-line", "on fire" };
+
+%
+
+Grip FAQ
+
+Q: I was listening to a CD in Grip and it sounded horrible! What's up?
+A: Perhaps you are listening to country music... 
+
+%
+
+audio_alsa_out: Warning: How am I supposed to RESUME, if I am not PAUSED.
+audio_out.c, please don't call me! 
+
+%
+
+hab enlightenment selber kompiliert, ohne esound-unterstützung. stattdessen
+kommt jetzt immer ein geräusch vom beeper, aber kein *beep*, sondern ein
+"zischen" (oder wie man das nennen mag), z.b. wenn ein neues fenster geöffnet
+oder die arbeitsfläche gewechselt wird. finde ich irgendwie abgefahren 
+
+%
+
+Caveat
+
+Most of the features discussed in this article are only available to you if you
+are running Apache 1.2 or later. Of course, if you are not running Apache 1.2 or
+later, you need to upgrade immediately, if not sooner. Go on. Do it now. We'll
+wait. 
+
+%
+
+ddate (06.01.2011)
+
+Today is Sweetmorn, the 6th day of Chaos in the YOLD 3177
+
+%
+
+drivers/macintosh/therm_windtunnel.c
+
+fan_table[] = {
+   { 11, T(0,0),  11 },    /* min fan */
+   {  1, 0xfffff, 1 }      /* on fire */
+}
+
+%
+
+Scorched 3D configure-script
+
+Checking for -lbeer in -lfridge... There's no beer in the fridge! We recommend
+you to rectify this situation immediately 
+
+%
+
+...
+checking for inline... __inline__
+checking for bc... no
+
+configure: error: Your system doesn't have "bc", which has been a standard
+part of Unix since the 1970s. Come back when your vendor has grown a clue. 
+
+%
+
+wenn man keine menüdatei im .enlightenment-verzeichnis hat, aber e16menuedit startet:
+
+  hmm. looks like you have some "issues" as you don't have
+  a /home/flash/.enlightenment/file.menu file.  Sucks to be you
+
+%
+
+amarok 1.3 mit debugging:
+
+amarok: BEGIN: virtual bool XineEngine::init()
+amarok: 'Bringing joy to small mexican gerbils, a few weeks at a time.'
+
+%
+
+gift-fasttrack Dokumentation
+
+Obviously we take no responsibility as to what this code does to your hardware,
+software, physical or mental health. Then again, running KaZaA in wine may destroy
+all of the above. 
+
+%
+
+Aus der Manpage von watch:
+
+  EXAMPLES
+  [...]
+  You can watch for your administrator to install the latest kernel with
+
+  watch uname -r
+
+  (Just kidding.) 
+
+%
+
+RRDTool configure-script
+
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default commands
+checking in... and out again
+ordering CD from http://people.ee.ethz.ch/~oetiker/wish ...
+
+%
+
+in irgendeiner frühen SuSE-Version kam auch mal eine Meldung "Entschuldigen sie
+untertänigst, aber ihnen fehlen leider die Rechte um <programm> auszuführen"
+
+%
+
+amaroK-Icon -> Rechtsklick -> Properties -> Type: Uncle Rodney says: "10/10
+amaroK is seriously super!"
+
+%
+
+KOrganizer Handbuch:
+
+"Anmerkung
+Die meiste Arbeit wurde schon automatisch erledigt. KOrganizer stellt
+standardmäßig wöchentliche Wiederholung ein. Sie werden auch feststellen, dass
+Kein Abschlussdatum ausgewählt ist. Das heißt, dass das Ereignis jeden Montag
+wiederholt wird (ab Montag, dem 12.02.2001) bis zum Ende des Universums (oder
+bis Sie das Ereignis löschen, je nachdem was vorher kommt)." 
+
+%
+
+Windows XP hat ein "feature" mit dem es auf Tastendruck abstützt: Man muss nur
+unter HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Servic es\i8042prt\Parameters
+den DWORD Wert CrashOnCtrlScroll = 1 erstellen. Nach einem Neusart stürtzt XP
+nach dem Drücken von STRG+Rollen brav mit einem Bluescreen ab. 
+
+%
+
+Amarok 1.3.1 Hilights:
+
+Um eine Audio-CD abzuspielen, wählen Sie in der Menüleiste bitte
+Aktionen->Audio-CD abspielen. Es öffnet sich ein Datei-Browser mit mehreren
+Ordnern und den CD-Stücken im WAV-Format. Ziehen Sie die WAV-Dateien einfach in
+die Wiedergabeliste und drücken Sie dann den Knopf Wiedergabe.
+
+Anmerkung
+Die Audio-CD-Funktion benutzt das Protokoll audiocd:/ und ist inkompatibel mit
+allen verfügbaren Treibern.
+
+%
+
+/usr/src/linux/Documentation/ManagementStyle:guy who lost his whole 36GB
+porn-collection because of your incompetence
+
+%
+
+Wine Fehlermeldung:
+
+err:int:INSTR_IDT_Emulate Evil attempt to exploit win9x system security flaws detected 
+err:int:INSTR_IDT_Emulate UNIX system security is too strong, can't emulate properly
+
+%
+
+Amarok 1.3.5 ChangeLog
+
+Fix amaroK attempting to destroy your computer, reach through the monitor and
+violently strangle you if you attempt to exit while the collection is being scanned.
+
+%
+
+aus /var/log/messages nach einem NFS-Unmount:
+
+Dec 6 07:46:24 $(hostname) kernel: VFS: Busy inodes after unmount. Self-destruct
+in 5 seconds. Have a nice day...
+
+%
+
+Unbuffer ManPage:
+
+BUGS
+The man page is longer than the program.
+
+%
+
+Wine Newsletter
+
+This is the 209th issue of the Wine Weekly News publication. Its main goal is to
+officially begin procrastinating on taxes. It also serves to inform you of
+what's going on around Wine. 
+
+%
+
+Wine Newsletter
+
+This is the 298th issue of the Wine Weekly News publication. Its main goal is to
+start skiing again. It also serves to inform you of what's going on around Wine. 
+
+%
+
+Aus der amaroK-Roadmap:
+
+Version 3.0
+Estimated Release Date: Released concurrently with the 6th French republic.
+amaroK will be re-written in Ruby.
+
+%
+
+NMAP configure-script
+
+checking if struct ip has ip_sum member... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating nsock_config.h
+
+  (  )   /\   _                 (     
+    \ |  (  \ ( \.(               )                      _____
+  \  \ \  `  `   ) \             (  ___                 / _   \
+ (_`    \+   . x  ( .\            \/   \____-----------/ (o)   \_
+- .-               \+  ;          (  O                           \____
+                          )        \_____________  `              \  /
+(__                +- .( -'.- <. - _  VVVVVVV VV V\                 \/
+(_____            ._._: <_ - <- _  (--  _AAAAAAA__A_/                |
+  .    /./.+-  . .- /  +--  - .     \______________//_              \_______
+  (__ ' /x  / x _/ (                                  \___'          \     /
+ , x / ( '  . / .  /                                      |           \   /
+    /  /  _/ /    +                                      /              \/
+   '  (__/                                             /                  \
+             NMAP IS A POWERFUL TOOL -- USE CAREFULLY AND REPONSIBLY
+Configuration complete.  Type make to compile.
+
+%
+
+GAIM configure-script
+
+"Again, this is a beta release and should not be used by those"
+"with a heart condition, if you are pregnant, or if you are under"
+"the age of 8. Side-effects include awesomeness, dumbfoundedness,"
+"try mouth and lava. Consult your doctor to find out if"
+"gaim is right for you."
+
+%
+
+root@toolchain / # USE="make-symlinks" emerge busybox
+[...]
+ * setting USE=make-symlinks and emerging to / is very dangerous.
+ * it WILL overwrite lots of system programs like: ls bash awk grep (bug 60805
+ * for full list).
+ * If you are creating a binary only and not merging this is probably ok.
+ * set env VERY_BRAVE_OR_VERY_DUMB=yes if this is realy what you want.
+
+%
+
+PLIP Dokumentation
+
+Performance
+===========
+
+PLIP easily outperforms Ethernet cards....(ups, I was dreaming, but
+it *is* getting late. EOB) 
+
+%
+
+diskseekd ManPage:
+
+BUGS
+    * Other aspects of Messy Dos' flakiness are not simulated.
+    * This section lacks a few smileys.
+%
+
+cowsay -f vader.cow Come to the Dark Side Muuuuuuuuuuuuuuuuke
+ _______________________
+/ Come to the Dark Side \
+\ Muuuuuuuuuuuuuuuuke   /
+ -----------------------
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
+
+(Und was bei 'cowsay -f sodomized.cow Aber Bauer Hein' oder
+'cowsay -f mutilated.cow Und sie glauben, BSE wäre schlimm'
+rauskommt, könnt Ihr ja selbst testen )
+
+%
+
+gerade eben sagte mir nano, als ich aus Versehen [Strg]+[S] gedrückt habe
+(wollte speichern und habe diese Combo von zig Programmen einfach intus) kam
+folgender netter Hinweis:
+
+  XOFF ignoriert, murmel murmel
+
+%
+
+Conky ManPage:
+
+conky - A system monitor for X originally based on the torsmo code, but
+more kickass. It just keeps on given’er. Yeah.
+
+%
+
+GIMP Templates mal anders:
+
+  Toilet paper (US, 300 dpi)
+
+Tipp: wenn es für andere ist... mit dem Tintenstrahler bedrucken.... 
+
+%
+
+PostFix Fehlermeldung
+
+  Error 221: I can break rules, too. Goodbye! 
+
+%
+
+Zeta NetworkManager Fehlermeldung
+
+Nov  4 21:47:23 zeta NetworkManager: 
+<WARN>  request_and_convert_scan_results(): card took too much time scanning.
+Get a better one. 
+
+%
+
+GParted Meldung
+
+Sie benötigen Administratorrechte um GParted zu starten
+
+Da GParted eine Massenvernichtungswaffe für Ihre Daten sein kann, darf lediglich
+der Systemadministrator es verwenden! 
+
+%
+
+Der Thread darf nicht sterben! Darum was neues aus dem LDAP-Schema für
+Evolution-Adresseinträge, evolutionperson.schema:
+
+# spouseName
+# single valued (/me smirks)
+attributetype ( 1.3.6.1.4.1.8506.1.2.8
+        NAME 'spouseName'
+        SUP name
+        SINGLE-VALUE )
+
+%
+
+%
+
+Changelog * Fri Aug 07 2009 Kristian Høgsberg <krh<at>redhat.com> - 2.8.0-4
+- Add dri2-page-flip.patch to enable full screen pageflipping.
+Fixes XKCD #619.
+
+%
+
+Meldung von cmake beim Bauen von boost:
+
+...
+--  + parameter
+--  + accumulators
+-- accumulators/docs needs love
+--  + system
+--  + asio
+...
+
+%
+
+pinentry:
+
+`Set the descriptive text to be displayed'
+            C: SETDESC Enter PIN for Richard Nixon <nobody@trickydicky.gov>
+            S: OK
+
+`Set the window title'
+     This command may be used to change the default window title.  When
+     using this feature you should take care that the window is still
+     identifiable as the pinentry.
+            C: SETTITLE Tape Recorder Room
+            S: OK
+
+`Ask for a PIN'
+     The meat of this tool is to ask for a passphrase of PIN, it is
+     done with this command:
+            C: GETPIN
+            S: D no more tapes
+            S: OK
+
+%
+
+configure von mod_python:
+
+...
+checking your blood pressure... a bit high, but we can proceed
+...
+
+%
+
+openBSD 4.7 - sudo
+
+  $ sudo htop
+
+  We trust you have received the usual lecture from the local System
+  Administrator. It usually boils down to these three things:
+
+      #1) Respect the privacy of others.
+      #2) Think before you type.
+      #3) With great power comes great responsibility.
+
+  Password:
+  Listen, burrito brains, I don't have time to listen to this trash.
+
+  Password:
+  You speak an infinite deal of nothing
+
+  Password:
+  sudo: htop: command not found
+
+Es geht noch weiter ...
+
+  Password:
+  You speak an infinite deal of nothing
+
+  Password:
+  Wrong!  You cheating scum!
+
+  Password:
+  Where did you learn to type?
+
+  Password:
+  You type like i drive.
+
+  Password:
+  Your mind just hasn't been the same since the electro-shock, has it?
+
+%
+
+Die Meldung vom MPlayer, wenn man sich einen wmv-stream lädt:
+
+  "Everything done. Thank you for downloading a media
+   file containing proprietary and patented technology."
+
+%
+
+configure von expect:
+
+     checking for stdint.h… yes
+     checking for unistd.h… yes
+     checking if the compiler understands -pipe… yes
+     checking whether byte ordering is bigendian… yes
+     …
+     checking for sin… no
+
+%
+
+man 5 xorg.conf
+
+VIDEOADAPTOR SECTION
+Nobody wants to say how this works. Maybe nobody knows ...
+
+%
+

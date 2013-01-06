@@ -1,0 +1,238 @@
+
+Re: Achtung: Instabiler Kernel
+Gesendet von Katastrophenaugust am Sa, 1. Aug um 10:03
+
+Beim Herkules (Edeka) in Bad Hersfeld in der Lebensmittel Abteilung 3
+Gondel mittelgang ist eine Tüte Haferflocken (Reis war alle) umgefallen.
+
+%
+
+Re[3]: Nicht ganz glücklich
+Gesendet von M. Mrotzek am Sa, 1. Aug um 4:55
+
+Was willst du? Bitte sprich Deutsch mit uns. Dieses Fachgesimpel kann doch niemand
+nachvollziehen... Pff, immer diese Geeks. Halten sich wohl für etwas Beseres.
+Das war schon immer so. :(
+
+%
+
+Re[3]: ok, aber was hat das mit linux...
+Gesendet von Ralf Gens am Sa, 1. Aug um 17:52
+
+Ich finde, dass die Studenten so lange in Beugehaft gehalten werden sollten,
+bis sie den Code unter der GPL freigeben.
+
+%
+
+Neue Ausgabe des Freien Magazins
+
+Qualität statt Quantität
+Gesendet von Jörg Zweier am Mo, 3. Aug 2009 um 12:03
+
+Auch, wenn ich nur selten dazu komme, das Magazin zu lesen, bin ich immer wieder
+davon beeindruckt, mit was für einer Qualität und Genauigkeit solche Projekte
+geführt werden. Daher auch von mir ein herzliches Dankeschön.
+
+Das Design machte beim Durchblättern einen sehr guten Eindruck. Besonders die
+Screenshots waren eindrucksvoll präsentiert. Die dargestellten Inhalte - ich
+möchte auch nicht groß drum herum reden - sie waren schlichtweg atemberaubend!
+
+Für die Zukunft gebe ich euch noch drei kurze Ratschläge:
+
+* Bitte mehr Hochglanzaufnahmen, die über die ganze Seite skaliert werden und
+somit also als Hintergrund agiern.
+
+* Aber wohl viel wichtiger ist: Unbedingt weniger Text! Ein, zwei Sätze je
+Doppelseite sind vollkommen ausreichend.
+
+* Editorial ist m.E. noch akzeptabel, aber die Leserbriefe liest sowieso niemand.
+Nehmt die lieber raus. Die Distributionsnews sind vom Konzept her ganz nett, aber
+im Ernst: Wen interessieren denn bitte Distributionen wie Ubuntu, wo man schon
+beim Lesen des Namens die Augen zucken, ganz zu schweige von den lieblos gewählten
+Farben, die bei mir immer Erinnerungen an ein nicht-kommerzielles Geschäft wecken,
+bei dem die Farbe "braun" ebenfalls im Mittelpunkt des Geschehens steht, der Anlass
+aber von Computer-ferner Natur ist, wobei eine Ausnahme die neuste Modeerscheinung
+E-Book-Geräte darstellen könnte, welche neuerdings an diesem Ort als Zeitungsersatz
+aufgrund Hygienevorkehrungen dient.
+
+Verfolgt ihr diese drei Vorschläge, schafft ihr auch den kommerziellen Durchbruch
+unter Computerbild-Lesern. Glaubt mir, ich weiß wovon ich spreche. Ich habe Jahre
+lang die Produktlinie von hoch-professionellen Magazinen wie Die Bunte und InTouch
+beobachtet.
+
+Ich würde allerdings einen Fork mit dem Namen "Linux BILD(er)" mit dem innovativen
+Slogan "BILD dir dein Linux" empfehlen. Das macht einen besseren Eindruck, wenn die
+Leser aus anonymen Quellen erfahren, dass es noch eine Welt hinter der Oberfläche
+gibt, die Insider auch "Kommandozeile" nennen. Auf der letzten Seite sollte es wie
+gehabt ein Preview auf die nächste Ausgabe geben. Zur Einführung in die
+Kommandozeilenwelt wäre Folgende Schlagzeile empfehlenswert: "Warum das Eintippen
+von "sudo rm -rf /" mit gefolgtem Enter in System -> Konsole Wunder bewirkt." Das
+weckt sicherlich Interesse bei der werten Leserschaft. Vergesst bloß nicht, die
+100 hochgeheimen und garantiert verbotenen Befehle zu erwähnen, um nicht eure Leser
+zu enttäuschen.
+
+Ihr müsst den Fokus auf Qualität statt Quantität legen. Was würdet ihr eher bevorzugen?
+Einen 200 Wörter Text oder eher ein beidseitiges Hochglanzscreenshot mit einer Headline
+von ~15 Wörtern. Natürlich Letzteres. Ganz klar.
+
+Ich spreche nicht nur für mich, sondern für die Allgemeinheit, wenn ich feststelle,
+dass ein einziges Screenshot von KDE mehr als 1000 Worte über GNOME sagt.
+
+%
+
+Schwarzer Tag für die Linux-Szene
+Gesendet von Jörg Zweier am Mo, 3. Aug 2009 um 12:37
+
+Wie naiv kann man eigentlich sein, auf Debian setzen und dabei noch niemals den
+geringsten Ansatz von Scham zeigen? Das kann ich einfach nicht nachvollziehen.
+
+Debian zeigte bereits durch die OpenSSH-Lücke, dass sie es verdient haben, in
+jeglicher Weise ernstgenommen zu werden. Wenn das nicht bereits gereicht hätte,
+entschieden sie, die werten Entwickler, allen Ernstes, nicht mehr die glibc zu
+verwenden und stattdessen auf eine Bibliothek namens "eglibc" umzusteigen!
+Diese Entscheidung haben sie wirklich getroffen!
+
+Der Name "eglibc" allein weckt schon kein Vertrauen. Mit Erstaunen und anschließendem
+Entsetzen sah ich, dass der kompetenteste Linux-Entwickler aller Zeiten, Ulrich Drepper,
+nicht an der Entwicklung des Forks beiteiligt war. Der Tag, als diese Entscheidung
+getroffen wurde, ist ein schwarzer Tag für die gesamte Linux-Szene.
+
+Mit diesen Umständen vor Augen las ich also die obigen Kommentare und war um es gelinde
+zu sagen mehr als schockiert! Wie können Menschen zu so etwas fähig sein, ihre Computer
+freiwillig mit solchem Teufelswerk in Berührung zu bringen und dies öffentlich (!) noch
+kundzutun.
+
+Ich bin einer der wenigen, der wirklich gehandelt hat. Die obigen Punkte reichten bei mir
+aus, um mich endlich von Debian loszulösen und auf ein richtiges qualitativ hochwertiges
+System zu setzen. Die Entscheidung fiel auf Sidux. Maßgeblich für die Wahl waren der
+Klang des Namens. Ich möchte nicht wieder auf Distributionen mit kryptischen und
+unverständlichen Namen wie "Ubuntu" oder gar "openSUSE" reinfallen.
+
+Nicht nur der Paketmanager ist um Längen besser als Debians aptitude, sondern auch dessen
+Befehlsname ist unter Sidux erheblich kürzer, nämlich "apt-get". Ich kann allerdings bis
+heute nicht nachvollziehen, warum die Siduxianer versuchen, mit den Optionen zu Debians
+aptitude größtenteils kompatibel zu bleiben.
+
+Nach einigen schlaflosen Nächten des Nachdenkens, kam ich auf die weise und zugleich kluge
+Antwort für dieses Problem: Es war schlicht und ergreifend Mitleid. Ja, ihr habt richtig
+gehört, Mitleid! Sie hatten eindeutig Mitgleid mit den Entwicklern und wollten ihnen dies
+quasi als "Geschenk" widmen.
+
+Heute Nacht kam mir noch eine zweite, aber fiese Option in den Sinn: Psychologische
+Manipulation. Die Siduxianisten wollen die Debian-Entwickler im Unterbewusstsein so
+manipulieren, dass sie zwecks gewohnter Umstände, zu Sidux wechseln. Wären die Parameter
+von Siduxs apt-get komplett anders, bestünde diese innere Motivation und der Drang hin zu
+Sidux hingegen leider nicht.
+
+Die letzte Variante erscheint mir nach sorgfältigem Abwägen von Für und Wider als sehr viel
+plausibler. Was meint ihr?
+
+Ich hoffe, dass ich heute Nacht nicht wieder den gewohnten Albtraum bekomme, dass Debian bei
+einem unabhängigen Performancetest besser abschneidet als Sidux. Beim Aufwachen wird mir
+natürlich klar, was für ein Unsinn, das ist. Debian besser als Sidux? Das würde ich mir nicht
+mal in meinen kühnsten Träumen ausmalen. Oh halt.
+
+%
+
+leiner Tipp am Rande
+Gesendet von Jörg Zweier am Mo, 3. Aug 2009 um 10:51
+
+Um täglich in den Genuss grandioser Fortunes zu kommen, lasse ich mir direkt nach dem Login die
+/etc/motd (unter INsidern auch MOTD, kurz: "Message of the Day" genannt) anzeigen. Diese wird
+u.A. von dem Programm "login" eingelesen. Der Trick ist, dass wir Pipes benutzen, um nach jedem
+Login eines anderes Fortune anzuzeigen. Andere Lösungen wie Cronjobs und das Missbrauchen der
+Shell-Startscripts skalieren nicht so gut und machen keinen guten Eindruck, wenn man mit seiner
+Lösung prahlen möchten. Also musste etwas komplizierteres her, was zudem auch einen gewissen
+Leet-Faktor erfüllt. Die Idee war geboren.
+
+Mein interner Codename für dieses Projekt ist: "Uber-LééT Hax0r fortune=>F!F0 M0tD" (tm)
+
+Aus Sicherheitsgründen verwende ich ausschließlich Telnet. Der spektakuläre Debian-Fall vor
+einiger Zeit hat wieder einmal bewiesen, dass OpenSSH in kritischen Umgebungen nicht mit den
+Microsoft-zertifizierten Programmen mithalten kann. Daher ist meine Wahl auf Telnet gefallen.
+Aber das nur kurz am Rande.
+
+Da fast alle Telnet-Implementierungen nicht wie gewünscht funktionierten, habe ich den
+Busybox-Telnet-Daemon ausprobiert. ...und damit sofort einen Volltreffer gelandet! Es lief
+sofort problemlos, ohne Murren. In Verbindung mit dem Busybox-"login"-Programm hat man sich
+selbst eine hochverfügbare Appliance gebaut. Von den Medien immer groß gepusht und als etwas
+höchst Anspruchsvolles dargestellt, lernt ihr hier, wie ihr so etwas euch selbst bastelt!
+
+Der Telnet-Daemon liegt bei mir in /usr/src/telnetd und "login" in /usr/src/login, um Konflikte
+mit dem bereits installierten Programmen zu vermeiden. Zum Starten von Telnet verwende ich:
+
+/usr/src/telnetd -F -l /usr/src/login &
+echo $! > /var/run/telnetd.pid
+
+Hier das vollständige rc-Script: http://pastebin.ca/1516429
+
+Jetzt gehts ans Eingemachte:
+Aus Bequemlichkeit benutze ich das Perl-Script "signify". Das nimmt einem eigentlich schon die
+ganze Arbeit ab und läuft im Hintergrund. Das benutzt ihr wie folgt:
+
+rm /etc/motd && /usr/src/signify/signify.pl --fifo=/etc/motd --input=/etc/motd.signify
+
+Damit signify weiß, dass es beim Lesen aus dem Pipe immer "fortune" aufrufen soll, braucht ihr
+noch die angegebene /etc/motd.signify mit folgendem Inhalt:
+
+% { exec
+fortune
+% }
+
+Da ich mich schon einmal mit signify selber ausgesperrt habe, müsst ihr unbedingt nach Ausführen
+von signify die /etc/motd löschen! Andererseits versucht "login" von einem nicht-besetzten FIFO zu
+lesen (/etc/motd), sodass zwar der Login funktioniert, aber ihr keine Shell bekommt, weil zuvor ja
+noch die MOTD angezeigt werden muss, welcher blockiert. Natürlich ist signify nur bedingt daran
+Schuld, weil man schließlich selber dafür verantwortlich ist, dass ein FIFO auch wieder fachgerecht
+entsorgt wird, sofern er Nicht-Benutzung wird.
+
+Also, um das Problem zu lösen, benutze ich eine Reihe ausgeklügelter und hochkomplizierter Tricks,
+die ich euch nicht vorenthalten möchte. Zum Starten meines "motdgen"-Daemons benutze ich:
+
+rm /etc/motd && /usr/src/signify/signify.pl --fifo=/etc/motd --input=/etc/motd.signify && rm \
+	/etc/motd && fortune > /etc/motd &
+
+Stop erfolgt mit: killall signify.pl ; rm /etc/motd ; fortune > /etc/motd
+
+Momentan benutze ich folgende Fortunes: http://dl.sourceforge.net/sourceforge/fortune4all/fortune_big.zip
+und http://old.kernelnewbies.org/kernelnewbies-fortunes.tar.gz
+
+Welche guten Fortunes kennt ihr sonst noch so?
+
+Euer Jörg
+
+%
+
+Re[5]: Ich habe keine Lust das zu ins...
+Gesendet von LH am Mo, 3. Aug um 14:16
+
+Ich habe ein paar Antworten ausprobiert, aber keine war ausreichend.
+
+Die meisten beinhalteten halbnakte Aliens und hässliche Frauen (oder war es umgekehrt?),
+aber sie zündeten einfach nicht.
+
+Aber ich wäre bereit an PL einen ganz privaten Vaporware Award zu verleihen, falls das weiterhilft ;)
+
+%
+
+Re[6]: Mandriva und die Rückkehr...
+Gesendet von Jörg Zweier am Mo, 3. Aug um 17:02
+
+> Wo bleiben die Fakten!!1111!
+
+Da kann ich dich auf eine ziemlich gute Seite verweisen:
+http://www.microsoft.com/windowsserver/facts/default.mspx?R=cf
+
+Komischerweise sind alle Punkte immer zugunsten von Windows. Warum, weiß ich leider auch nicht. Das
+sollte mal etwas genauer untersucht werden. Meine vage Vermutung ist, dass es eine Verschwörung gibt,
+aber um Genaueres sagen zu können, muss ich noch etwas mehr recherchieren.
+
+%
+
+Re: Frage an die Experten
+Gesendet von ein ganz schlauer am Mi, 5. Aug um 12:36
+
+bei Debian verlangt man vor hier einen Handstand, ich habe 120kg bei 156cm wie
+bekomme ich denn Toches (Arsch) hoch? ... wie macht man das?
+
+%

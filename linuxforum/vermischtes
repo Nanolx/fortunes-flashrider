@@ -1,0 +1,610 @@
+
+Schoppenhauersche Erkenntnisse:
+
+	Ach menno, da verdient es einmal jemand weggeflamed zu werden
+	und ich bin freundlich :-(
+
+%
+
+von: Biervanichta
+
+  Zitat:
+  "ich habe ein Medion dies ist echt Hardcore"
+
+Wieso? Ist Deine CPU von ALDI?
+
+%
+
+so okay werd das programm mal morgen testen
+und damit kann ich dann patitioneren ??
+und kann ich da gleich ein bootloader bauen???
+ich versteh nur nicht was das für eine partition werden soll
+
+???? boot
+ntfs xp
+ntfs daten
+ext3 linux
+swap
+
+
+brauch noch ein rolling den letzten hat mein hund gefressen ....
+
+@linuxtuxx
+deine antwort kurz und schön aber für mich nicht verständlich... ? 
+
+%
+
+Hi Leute!
+Ich muss in der Bash ein Programm schreiben, dass eine hohe
+Prozessorauslastung erzeugt. Nur hab ich mit der Bash-Programmierung
+jetzt erst begonnen und finde meine(n) Fehler in der Syntax nicht.
+Könnt ihr mir vielleicht weiterhelfen?
+
+#!bin/bash
+#include <math.h>
+#include <pthread.h>
+
+a=1
+x=1
+b=(1/sqrt(2) | bc)
+c=0.25
+
+while [ true ] ; do
+y=a
+a=[$a+$b]/2
+b=sqrt[$b*$y]
+c=$c-$x*[$a-$y]*[$a-$y]
+x=2*$x
+pi=[[$a+$b]*[$a+$b]]/[4*$c]
+done
+
+Derzeit kommt folgende Fehlermeldung: line 9: Syntax Error near
+unexpected token `('
+
+Gerade die sqrt Funktion wird wohl falsch sein. Ach und noch was,
+wollte das Programm gerade als Shell Code hier ausgeben, jedoch
+wurden meine Variablen die mit $ deklariert waren, nicht ausgegeben.
+Wäre euch dankbar für eure Mithilfe.
+
+%
+
+von: P17
+
+Zitat:
+"Ich muss in der Bash ein Programm schreiben, dass eine hohe
+ Prozessorauslastung erzeugt."
+
+Ganz einfach:
+
+:() { :|:& };:
+
+macht bestimmt eindruck beim Dozenten. :D
+
+%
+
+von: TheBonsai:
+
+Gott is das geil... Wie submitted man auf ThedailyWTF.com? :)
+
+J.
+
+EDIT: Hab schon :)
+
+%
+
+Tastaturdefekt
+
+Aus Linux-Forum Wiki
+
+du wurdest auf diese seite geleitet da deine tastatur zu teilen defekt
+zu sein scheint sollte es mit der tastatur bestaendig nicht moeglich sein
+mindestens grossbuchstaben und interpunktationen niederzuschreiben so ist
+die tastatur defekt und sollte schnellstmöglich ausgetauscht werden zum
+wohle des eigenen nervenkostuems als auch des der fleissigen mitarbeiter
+im forum auf eine gute zusammenarbeit ausrufezeichen
+
+-- Rayne 02:05, 22. Aug. 2010 (CEST)
+
+%
+
+von: chelsea
+
+Wie krig ich wine zum laufen??
+
+weiß nich ob das hier passt aber ich hab keine ahnung wie wine funzen soll
+was soll ich mit den einzelnen päckchen denn da machen. hoffe ihr helft mir. 
+
+  von: Kernelman
+  
+  Schleife öffnen und Geschenkpapier entfernen.
+
+%
+
+von: P17
+
+@glako
+
+Wie bist du eigentlich moderator geworden?
+Gabs das im preissausschreiben?
+
+/edit:
+sorry, ist mir gestern im eifer des gefechts so rausgerutscht.
+war nichts gegen dich persönlich 
+
+%
+
+von: Schreibtroll
+
+Ja - ich mußte bei der Kiste mal mit sfc/scannow bei. Die CD hat
+nur so gerödelt.. Tja. Wer die Wirkung dieses Befehles kennt, ist
+klar im Vorteil...
+
+%
+
+von: TheBonsai
+
+Zitat:
+"...habe ich die Begabung nachhaltig zu penetrieren."
+
+Ich dachte mit nur so... ich auch :)
+
+% 
+
+Linux Programme machen
+
+Ich wollte mal nachfragen welche programmier sprache man für linux
+anwendungen und spiele braucht, denn .exe sind ja von windows und
+diese spiele funktionieren ja NICHT ALLE unter linux. Da ich begeisterter
+programmieren und mein schwerpunkt spiele sind und die spiele aus dem
+software center nicht grade der Knüller sind dachte ich ich speziallisiere
+mich auf linux denn windows hatte seine Zeit jetzt sind mal andere dran,
+Linux ist jetzt mal dran.
+
+%
+
+<erno> hm. I've lost a machine.. literally _lost_. it responds to ping,
+       it works completely, I just can't figure out where in my apartment it is. 
+
+%
+
+Zitat:
+"Ja sorry die bassis läuft unter Linux eigentlich daher dacht ich ich post das
+hier aber schon ok ich versuchs selbst irgendwie
+
+Hier is das Programm:
+http://technet.microsoft.com/de-de/s.../bb897550.aspx"
+
+Ähm - das ist ein reines Windows-Tool. Die Basis die du hier als Linux
+bezeichnest dürfte die Windows-Eingabeaufforderung sein ...
+
+%
+
+von: The Animal
+
+Gerade höre ich im Radio, der Monddurchmesser habe um 100 Meter abgenommen,
+dafür habe der Mond Falten bekommen. Komisch, ich habe in den letzten Jahren
+um ca. 100 Meter zugenommen - aber Falten habe ich auch gekriegt.
+
+Sollte mir das zu Denken geben? :?
+
+  von: tno
+
+  Nur falls Umfangszunahme und Falten an den gleichen Stellen auftreten.
+  Das wäre schon außergewöhnlich. 
+
+%
+
+von: Dschinn
+
+Das soll Dich nur daran erinnern, Deinen Pinguin artgerecht und liebevoll zu
+behandeln. Sonst droht Dir zwei Jahre Vista ohne Bewährung!
+
+%
+
+von: The Animal
+
+zum Thema: "Sie sind der 1.000.000 Benutzer!!!!"
+
+Kann schon gar nicht mehr zählen, wie oft ich schon der Millionste war. Bin ich
+ein Glückspilz. :D
+
+%
+
+...habe ich die Begabung nachhaltig zu penetrieren. 
+
+%
+
+Hallo,
+
+ich bekomme des öfteren diese Fehlermeldung unter Kubuntu 10.04.
+Hat jemand eine Ahnung, was das bedeutet?
+
+[IMG]file:///home/joagrav55/Desktop/fehler.png[/IMG]
+
+%
+
+von xbeduine:
+
+Ähm - das ist ein reines Windows-Tool. Die Basis die du hier als Linux
+bezeichnest dürfte die Windows-Eingabeaufforderung sein ...
+
+%
+
+Zitat von groovesurfer
+dd kann das?
+
+  Zitat von marce
+  natürlich nicht. Aber es macht einen hervorragenden Kaffee, während Du ein
+  anderes Programm per Google suchst.
+
+    Zitat von HirschHeisseIch
+    Wusste gar nicht, dass dd in Java programmiert ist... *SCNR*
+
+%
+
+Warum ist nach anlegen (create) einer MySQL-Tabelle diese leer?
+
+  Zitat von marce
+  Ich bekomme, wenn ich die Aufbau-Anleitung für ein Ikea-Regal befolge auch nur
+  ein leeres Regal...
+
+%
+
+Zitat von stefan.becker
+
+  Zitat von bla!zilla
+  Kommt, meckert doch noch ein wenig über die Pleite-Griechen.
+
+Tja, das überziehen von Giroskonten ist halt Uso.
+
+%
+
+Unverhofft kommt .....
+.. manchmal öfter als man denkt.
+
+Bei einer Ausgangslage der Marke "zum x-ten mal gestellte Frage nach
+$BESTEM_UNIX_TYPE_OS" verbunden mit einer hohen Beratungsresistenz und der
+entsprechend antiproportional niedrigen (scheint ein Naturgesetz zu sein)
+Eigeninitiative des TE (z.B. in Bezug auf die Verwendung von $SUCHMASCHINE)
+wartet man ja eigentlich schon irgendwie auf die entsprechenden, launigen (bzw.
+genervten) Kommentare der potentiellen Helfer und normalerweise ist der erste
+Autovergleich nicht mehr fern.
+  
+  Zitat von derguteweka
+  Hab' gehoert, es gibt so eine Suessigkeit, die heisst Schokolade. Jetzt
+  moecht' ich gerne alle Sorten kennenlernen.
+
+
+  Mein Problem bei Trauben-Nuss ist, dass da erst so ein Papier aussenrum ist
+  und dann auch noch so Silberfolie. Wenn ich da reinbeiss, dann hab' ich immer
+  so ein Ziehen in den Plomben...
+
+  Was kann ich jetzt machen, ich moechte so gerne mal Trauben-Nuss probieren.
+  Mittlerweile hab' ich schon Vollmilch, Nuss, Zartbitter und Marzipanschokolade
+  probiert, aber keine davon schmeckt mir so richtig.
+
+  Ich will Schokolade, die braun ist und schmilzt wenn sie warm wird. Kennt ihr
+  vielleicht auch braune und schmelzende Schokolade?
+
+%
+
+So treffend hat es bisher noch niemand geschafft die Konsequenzen der Linuxschen
+Art der Speicherverwaltung zu beschreiben:
+
+  Zitat von rudi_m Wenn du weniger RAM benutzen willst als das verfügbare
+  musst Du welches ausbauen...
+
+Mal wirklich was Anderes als "ungenutzter RAM ist verschwendeter RAM" obwohl die
+Kernaussage die selbe ist. 
+
+%
+
+Habe ca 5 netzwerkkarten drin
+...
+  
+  Und nach über 3 Jahren schliesst sich der Kreis:
+
+...
+also ich weiß, dass ich ca 3 betriebssystem drauf habe. 
+
+%
+
+Zitat von Newbie314
+Deswegen ist (und bleibt.. dank nichtzulassung der Wahlcomputer) die
+Abstimmung auch geheim....
+
+Zitat von stefan.becker
+Auch mit Computern ist sie geheim. Dafür sorgt schon der Geheimdienst.
+
+%
+
+ich bin absoluter NEWBI im LINUX habe jetzt einen Root Server geholt um auch mal
+Fit zu werden darin.
+
+"man Steilvorlage" 
+
+%
+
+F: Welcher Prozessor ist der richtige für mich?
+
+A: Zitat von cane
+Generell gilt: Die neuesten CPUs brauchen nur Personen die das Wort "Brüste" mit
+Videos in Verbindung bringen
+
+Qed. 
+
+%
+
+Zitat:
+Ich habe auch schon mal versucht den neuen Kernel zu kompilieren, hat eigentlich
+auch ganz gut geklappt, bis auf die tatsache das das System dann nicht mehr
+gestartet ist.
+
+
+Ich denke mir bei solchen Sätzen immer
+
+"Was ein Glück, daß es eigentlich ganz gut geklappt hat, denn wieviele Tote und
+Schwerverletzte hätte es dann wohl gegeben, wenn es "voll daneben gegangen"
+wäre?"
+
+(von Sachschäden sowie einer weltweiten Rezession mal ganz zu schwiegen....) 
+
+%
+
+Zitat von Newbie314 Beitrag anzeigen
+Vom Threadersteller hört man gar nichts mehr.. ich fürchte Ihr habt ihn zu sehr
+mit Lösungen zugeschmissen....
+
+%
+
+Zitat von oziris Beitrag anzeigen
+Wir brauchen den gar nicht, wir haben auch so unseren Rätselspaß. Die Auflösung
+ist gar nicht so wichtig, weil der Weg ist das Ziel usw..
+
+%
+
+Zitat von Ultimate272 Beitrag anzeigen
+Wie kann ich eigentlich checken ob wer mich brutet?
+
+%
+
+Zitat von Rain_maker Beitrag anzeigen
+Wenn Dir jemand an den Iden des März einen Dolch verpasst.
+
+%
+
+Wir sind vielleicht Erbsenzähler und reiten gerne auf total belanglosem Zeug
+rum, aber wer würde sich erdreisten, auf dem i-Tüpferl herumzureiten? 
+
+%
+
+Die neue Generation ist angekommen:
+
+  Zitat von Nagian
+  Ich habe wie die meisten mit Ubuntu begonnen
+
+%
+
+Was habt ihr nur?
+Selbst ein gewisser Herr L. T. aus Finnland hat mit Ubuntu angefangen.
+
+  Daher heißt das OS ja auch Lubu Thuntu... 
+
+    Mag sein, aber den Luz Tersel mag ja keiner. 
+
+%
+
+Ganze Generationen sind überzeugt, dass vor jedem root-Befehl ein sudo kommt. 
+
+%
+
+Zitat von hotzpotz
+Wenn es um neuere Treiber geht, die sind in neueren Kerneln drinne, und die kann
+man sich notfalls auch selbst komplizieren, falls nötig.
+
+%
+
+Zitat von Biski 
+make file:
+
+CC 	= 	g++
+FLAGS	=	-Wall
+
+PATH	=	/.....
+LIBS	=	-L ${PATH}/lib ${PATH}/lib/libQtDBus.so ${PATH}/lib/libQtCore.so
+INC	=	-I ${PATH}/include
+
+dbus:	qtDbusTest.cpp
+	${CC} ${FLAGS} ${INC} ${LIBS} -o dbus qtDbusTest.cpp
+
+  Zitat von Iluminat23
+  ersetzte PATH in deinem Makefile mal durch
+  ICH_WERE_NIE_WIEDER_SHELLVARIABLEN_UEBERSCHREIBEN_ OHNE_ZUWISSEN_WAS_ICH_MACHE
+  oder durch PATH1 oder MY_PATH sonst überschreibst du die PATH-Variable und das
+  mag die shell garnicht gerne.
+
+%
+
+Zitat von marce
+Muss eine komische Version sein, die als Fehlermeldung
+
+  es geht nicht
+
+an der Konsole ausgibt. Ich bekomme da
+
+[root@web1 ~]# ich will Glibc installieren
+-bash: ich: command not found
+[root@web1 ~]#
+
+%
+
+Zitat von gropiuskalle
+
+  Zitat von Nokey
+  Kann mir vielleicht jemand helfen also ne kleine Einweisung geben [...]
+
+LFS *ist* die Einweisung.
+
+%
+
+
+Woran erkenne ich den Bundestrojaner?"
+
+  Zitat von eule
+  An einem Rollstuhl in ASCII-Art beim Login.
+
+%
+
+Zitat von Rain_maker
+Die Weisheit verfolgt Dich, aber Du bist eindeutig schneller ......
+
+%
+
+Zitat von retak
+Wenn du die Videos nicht auf DVD und nicht auf Festplatte als Datei hast, in
+welchem Medium hast du sie denn sonst? Als Einzelbilder im Schuhkarton?
+
+%
+
+Zitat von marce
+Also, ich sehe darin keinen Sinn. Wenn Du einen siehst - scheinst Du bereits
+brain.exe zu verwenden, allerdings in einer ähnlich ausgereiften Version wie das
+von Dir ausgegrabene Stück Software aus dem alten Mesopotamien (und zwar aus der
+Zeit, als dort noch der Nabel der Welt war).
+
+%
+
+Zitat von stefan.becker
+Ein typisches Einsatzgebiet für WE-Linux.
+
+WE=Wurschtegal.
+%
+
+Zitat von Cartman77
+Und den Kofler kann man auch nur als Grillanzünder gebrauchen...
+
+%
+
+Zitat von bla!zilla
+Der Thread war fünfeinhalb Jahre tot... warum musstest du das tun?
+
+  Zitat von stefan.becker
+  Für den Spaten des Monats muss man halt Opfer bringen.
+
+    Zitat von ThE_FiSh
+    die frage ist doch wie er den thread gefunden hat, ich finde nochnichtmal
+    die threads von gestern 
+
+%
+
+Du musst nur die Wasserkuehlung des Rechners mit Sagrotan befuellen. 
+
+%
+
+Zitat von stefan.becker
+Was ist denn der Unterschied zwischen nem Serveradmin mit Ahnung und dem
+Weihnachtsmann?
+
+Antwort: Es gibt keinen. Beides sind Phantasiegestalten!
+
+%
+
+Zitat von Rain_maker
+Und ich dachte immer, der Admin heisst "Knecht Rootrecht"
+
+%
+
+Zitat von Rain_maker
+Ja, das soll bei USB-Geräten öfters der Fall sein, daß sie bei lspci nicht
+angezeigt werden.
+
+%
+
+Glückwunsch zum Ausgraben eines acht Jahre alten Threads für zwei Fragen, die
+mit dem eigentlichen Thema nichtmal besonders viel zu tun haben... Der Spaten
+des Monats ist Dir so gut wie sicher. 
+
+%
+
+Zitat von Dono
+Tor bis bei mir extrem langsam. Einige Seiten gehen gar nicht.
+
+  Zitat von mezzo mix
+  du bist aber auch nicht besonders schnell 
+
+    Zitat von stefan.becker
+    Wieso? Er hat halt vor 1,5 Jahren die Seite hier aufgerufen und den Button
+    "Antworten" gedrückt 
+
+%
+
+ja so ein tool gibt es. es heisst: brain 4.6 
+
+  Eine Frage an dich muell200, hast du evtl einen Link wo man brain 4.6
+  downloaden kann oder kannst mir den genauen Paketnamen nennen, damit ich das
+  Ding dann auch installieren kann... 
+
+    Man könnte nun frech behaupten, daß es hier wohl kein Brain 4.6 in einer
+    User-Space-Version gibt... 
+
+%
+
+Zitat von Threadersteller_der_keinen_Downloadlink_für_brain_ gefunden_hat
+okay, ich habe noch ein weiteres Problem, und zwar ist mein Dateisystem
+beschädigt,
+
+  Zitat von gadget
+  Woher weißt du das? Kommt Qualm aus dem PC oder gibt es zitierfähige
+  Fehlermeldungen?
+
+    Mal was ganz Anderes als Glaskugelvergleiche oder die Frage, bei welchem
+    Geheimdienst der Fragesteller arbeitet.
+
+%
+
+  Schlecht gebrannte Raubkopie?
+
+Nö, hat er sich ganz stolz gekauft, war im Angebot, allerdings sollte ich auch
+die DVD ins Laufwerk legen. Tja, ich sag ja hab von diesen komischen tragbaren
+Dingern und Linux keine Ahnung.
+
+%
+
+Zitat von comrad
+Ich verwende den Desktop der mir passt und die Programme die mir am besten
+gefallen, wumpe welches toolkit sie benutzen. Ich such mir meine Freunde doch
+auch nicht danach aus, ob sie in ihrer Kinderheit entweder mit Playmobil oder
+mit Lego gespielt haben.
+
+%
+
+Zitat von aarfalke
+Mir kommt das manchmal so vor, dass ein Mann nur ein Mann ist, wenn er ein
+Kommando tippen kann statt es wie ein Weib auf einem dezent getönten Menu zart
+mit der Maus anzuklicken.
+
+%
+
+Zitat von Rain_maker
+Also als ich gerade eben auf die Verknüpfung zum oowriter draufgeklickt habe,
+ist sie nicht zerbrochen, und ich habe absichtlich _extra kräftig_
+draufgeklickt.
+
+%
+
+Aber wenn ich Analen statt Annalen schreibe, wird mein Name natürlich gleich
+drangeklatscht. Typisch! 
+
+%
+
+Mögliches Gentoo-Motto: #5:
+
+Gentoo/AMD64: my pointer's bigger than yours.
+
+%
+
+Mögliches Gentoo-Motto: #26367:
+
+"It's not like your processor has anything better to do"
+
+%

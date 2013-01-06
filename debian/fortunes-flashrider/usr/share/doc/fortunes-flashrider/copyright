@@ -1,0 +1,24 @@
+This work was packaged for Debian by:
+
+    Christopher Roy Bratusek <nano@tuxfamily.org> on Mon, 02 Nov 2009 21:53:27 +0100
+
+It was downloaded from http://www.nanolx.org
+
+Upstream Author(s):
+
+    Christopher Roy Bratusek
+
+Copyright:
+
+    Copyright (C) 1998 - 2009 Hans-Joachim Baader, Mirko Lindner
+
+License:
+
+    Public Domain
+
+The Debian packaging is:
+
+    Copyright (C) 2009 Christopher Roy Bratusek <nano@tuxfamily.org>
+
+and is licensed under the GPL version 3, 
+see `/usr/share/common-licenses/GPL-3'.

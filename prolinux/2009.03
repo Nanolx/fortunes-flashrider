@@ -1,0 +1,128 @@
+Re[6]: ...und der freie Treiber?
+Score: 3 Von vicbrother am Mo, 9. März 2009 um 15:07 #
+
+LH,
+
+als ProLinux-Urgestein hielt ich dich bis zu diesem Artikel
+für einen ernstzunehmenden Kommentator. Aber wer in deinem
+Alter zockt WoW? Das gibt mir arg zu denken ;)
+
+  mehr Re[7]: ...und der freie Treiber?
+  Score: 3 Von LH am Mo, 9. März 2009 um 15:26 #
+  "Aber wer in deinem Alter zockt WoW?"
+
+  Uh, da kommt bei mir natürlich sogleich die spannende Frage auf:
+  Welches Alter vermutest du den? :)
+
+    mehr Re[8]: ...und der freie Treiber?
+    Score: 3 Von thomas_c. am Mo, 9. März 2009 um 16:49 #
+    Ich fange einmal an zu tippen: 41. :-)
+
+%
+
+Re[5]: ...und der freie Treiber?
+Score: 3 Von Konjunkturpackete Schnürere am Di, 10. März 2009 um 00:48 #
+
+Tja, vor dem Fortschritt macht eben keiner Halt, auch du kannst die Wirtschaft retten!
+Es ist ökonomisch unverantwortlich, Geräte zu nutzen, die älter als 2 Jahre sind, da
+wird es sicher bald strafzahlungen geben! 
+
+%
+
+Re: Janusköpfiges Geheule
+Score: 3 Von lililili am Mo, 9. März 2009 um 13:46 #
+
+Du siehst doch dass Closett Source Treiber Scheisse sind.
+Von heute auf morgen eingestellt. Mit Intel Inside ist das nicht passiert.
+
+  mehr Re[2]: Janusköpfiges Geheule
+  Score: 3 Von fuffy am Mo, 9. März 2009 um 15:03 #
+
+  Die von Intel sind ja von vorneherein schlecht. ;-) 
+
+%
+
+Re[2]: Dreck !
+Score: 3 Von Ypsi am Mi, 11. März 2009 um 08:42 #
+
+Nachtrag; Außerdem verhälst du dich anachronistisch, der Bürgerschreck des 21.
+Jahrhundert heißt "Internationaler Terrorismus (TM)", behelfsweise auch
+Kiderpornographie oder Raubkopierer, aber "der Russe" lässt noch nicht einmal
+mehr US-Amerikaner erzittern. Bitte Update durchführen, dann klappts auch wieder
+mit dem betreuten Denken!
+
+%
+
+saugut!
+Score: 3 Von dd am Do, 5. März 2009 um 09:56 #
+
+saugut. lasst euch nicht von kubuntu den ersten eindruck kaputt machen! probiert
+mal die neueste chakra-live-cd (hat auch proprietäre treiber integriert). da
+seht ihr, wie schnell kde 4 wirklicht ist ;)
+
+  mehr Re: saugut!
+  Score: 3 Von Izual am Do, 5. März 2009 um 10:00 #
+
+  Kubuntu hat mir keinen Eindruck kaputt gemacht.
+
+    mehr Re[2]: saugut!
+    Score: 3 Von Momo am Do, 5. März 2009 um 10:06 #
+
+    Dann scheint sich dein Qualitätsanspruch auf sehr niedrigem Niveau zu befinden.
+
+%
+
+Re: Tastaturbelegung aendern.
+Score: 3 Von Hendrik Richter am Do, 5. März 2009 um 13:31 #
+
+Dies haben die "allherrlichen Entwickler" bereits vor geraumer Zeit möglich gemacht.
+Mittels gconf musst du zuerst den Schlüssel /desktop/gnome/interface auf WAHR setzen,
+das geht entweder mit gconf-editor oder über die Befehlzeile mit dem Befehl:
+
+gconftool-2 --type bool --set /desktop/gnome/interface/can_change_accels true
+
+Anschließend kannst du in GTK+-Programmen einen beliebigen Menüpunkt auswählem und
+ihm durch Drücken des gewünschten Tastenkürzels selbiges zuweisen.
+
+  Re[2]: Tastaturbelegung aendern.
+  Score: 3 Von Hans Wurst am Fr, 6. März 2009 um 09:58 #
+
+  Vielen Dank fuer diese Information. Das geht wirklich einfach und springt jedem
+  User direkt ins Auge. Wenn die Usabilityentwicklung bei Gnome so rasant weitergebt,
+  schaue ich es mir in 5 Jahren nocheinmal an. :) 
+
+%
+
+Re: Tastaturbelegung aendern.
+Score: 2 Von vicbrother am Do, 5. März 2009 um 15:24 #
+
+Es gibt bei GNOME keine allherrlichen Entwickler. Es sind Götter. Und auch du kannst
+zu Gott werden. Du kannst einfach mitmachen. Als Voraussetzung musst du natürlich
+schwören, keine neuen Features zu implementieren die die User verwirren könnten. 
+
+%
+
+e: Windowsbefeuerter Laptop
+Score: 3 Von volltroll.de am Mi, 4. März 2009 um 13:11 #
+
+"Immerhin hat Windows ein Startbutton, das hat Linux bis heute nicht."
+
+Ja wie auch? Linux hat ja noch nicht mal ne grafische Oberfläche.
+Und wozu braucht man einen Startbutton? 
+
+%
+
+Re[2]: Sawfish, Xfce?
+Score: 3 Von martinp am Mo, 2. März 2009 um 21:22 #
+
+Wunderbar. Es gibt leider so gut wie keine Distros, die den hervorragenden
+Sawfish noch einsetzen. Alleine schon deswegen lade ich Zevenos herunter. 
+
+%
+
+Re: Linux Screen-Shot
+Score: 3 Von Lacher am So, 15. März 2009 um 20:38 #
+
+Ist es für einen mieserablen Trollversuch nicht schon ein wenig spät mein Kind?
+
+%

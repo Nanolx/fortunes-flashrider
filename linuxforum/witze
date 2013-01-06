@@ -1,0 +1,200 @@
+
+Jetzt entdeckt! Der Nerdpol:
+http://www.stupidedia.org/stupi/Nerdpol
+
+%
+
+JETZT NEU!! Der IPenis! Wie lang ist Ihr Pinguin? Testen Sie jetzt!!
+
+#!/bin/sh
+LC_ALL=C
+echo $(uptime\
+      |grep Tage\
+      |sed 's/.*an \([0-9]*\) Tag.*/\1\/10+/';\
+      cat /proc/cpuinfo|grep MHz|awk '{print $4"/30+";}';\
+      free\
+      |grep '^Mem'\
+      |awk '{print $3"/1024/3+"}'; df -P -k -x nfs\
+      | grep -v 1k\
+      | awk '{if ($1 ~ "/dev/(scsi|sd)"){ s+= $2} s+= $2;} END\
+      {print s/1024/50"/15+70";}'\
+      )\
+|sed 's/,/./g'\
+|bc\
+|sed 's/\(.$\)/.\1cm/'
+
+%
+
+von Dschinn
+Zum Thema: Wie lang ist euer Pinguin?
+
+Einen Meter, dreiundachtzigkommafünf Zentimeter.
+
+Wir bewegen und immer sehr kommunikativ und gleichberechtigt auf Augenhöhe.
+
+Nur meinen Thunfischsalat mümmel ich selber. Da bekommt er was auf die Flossen,
+wenn er seinen Schnabel da reinsteckt.
+
+%
+
+von Dschinn
+Zum Thema: Wie lang ist euer Pinguin?
+
+Nicht nur er. Ich fürchte schon fast um die Erdrotation. Was wohl, wenn Bonsai
+das auf seinem alten Mailserver laufen lässt...
+
+%
+
+Witze des neuen Jahrtausends: #264:
+
+Was macht ein Pirat am Computer?
+Er drückt die Enter-Taste. 
+
+%
+
+Witze des neuen Jahrtausends: #26789:
+
+Was liegt am Strand und hat einen Sprachfehler?
+Eine Nuschel.
+
+%
+
+Witze des neuen Jahrtausends: #3149:
+
+Was ist braun und taucht?
+Ein U-Brot. 
+
+%
+
+Witze des neuen Jahrtausends: #1365:
+
+Warum steht ein Pils im Wald?
+Weil die Tannen zapfen. 
+
+%
+
+Witze des neuen Jahrtausends: #469698:
+
+Ich habe gestern bei denWeight Watchers angerufen.
+Hat keiner abgenommen. 
+
+%
+
+Witze des neuen Jahrtausends: #963:
+
+Was ist dick und steht am Kopierer?
+Ein Praktifant. 
+
+%
+
+Witze des neuen Jahrtausends: #26:
+
+Was essen Supermodels, wenn's mal schnell gehen muss?
+Ein Laufsteak. 
+
+%
+
+Witze des neuen Jahrtausends: #16988:
+
+Ich wollte gerade Spider-Man auf dem Handy anrufen,
+aber er hatte kein Netz. 
+
+%
+
+Witze des neuen Jahrtausends: #7596:
+
+Was macht ein Clown im Büro?
+Faxen. 
+
+%
+
+Witze des neuen Jahrtausends: #82321:
+
+Wo wohnt eine Katze am liebsten?
+In einem Miezhaus!
+
+%
+
+Witze des neuen Jahrtausends: #91365:
+
+Welche Handwerker essen am meisten?
+Maurer. Die verputzen ganze Häuser. 
+
+%
+
+Witze des neuen Jahrtausends: #1269:
+
+Wie nennt man einen Boomerang, der nicht zurückkommt?
+Stock. 
+
+%
+
+Witze des neuen Jahrtausends: #72:
+
+Patient: "Hilfe Herr Doktor, ich krieg meine Vorhaut nicht mehr zurück!"
+Doktor: "Na sowas leiht man ja auch nicht aus." 
+
+%
+
+Witze des neuen Jahrtausends: #345:
+
+5 von 4 Leuten haben Probleme mit Mathematik! 
+
+%
+
+Witze des neuen Jahrtausends: #669461316496445165:
+
+treffen sich zwei blondinen zum schach, fragt die eine: hast du die regel im kopf?
+fragt die andere: Wieso? Blute ich aus der nase?
+
+%
+
+Der Bootvorgang von Windows
+
+Bios an Windows: "Los jetzt! Hochfahren!"
+
+Windows an Bios: "Immer langsam mit den jungen Platinen."
+Gerätemanager an Betriebssystem: "Ich hab da was Komisches auf dem Schirm."
+Antwort von Windows: "Erst mal ignorieren."
+Hardwareassistent an Windows: "Der User macht Druck. Ich soll das Ding
+identifizieren. Könnte eine ISDN-Karte sein."
+
+Windows: "Na so was."
+Unbekannte ISDN-Karte an alle: "Würdet ihr mich bitte reinlassen?"
+Netzwerkkarte an Eindringling: "Du kannst Dich hier nicht breit machen!"
+Windows: "Ruhe im Gehäuse! Sonst entziehe ich beiden die Unterstützung!"
+Gerätemanager: "Biete Kompromiss an. Die Netzwerkkarte darf immer montags
+mitmachen, die ISDN-Karte ist am Dienstag dran."
+
+Grafikkarte an Windows: "Mein Treiber ist gestern in Rente gegangen. Ich stürze
+jetzt ab."
+
+Windows an Grafikkarte: "Wann kommst Du wieder?"
+Grafikkarte: "Na, erst mal nicht."
+CD-Rom-Laufwerk an Windows: "äh, ich hätte hier einen neuen Treiber..."
+Windows: "Was soll ich´n damit?!"
+Installationssoftware an Windows: "Lass mal, ich mach´ das schon."
+Windows: "Das hört man gern."
+USB-Anschluss an Interruptverwaltung: "Alarm! Wurde soeben von einem
+Scannerkabel penetriert. Erbitte Reaktion."
+
+Interruptverwaltung: "Wo kommst Du auf einmal her?"
+USB-Anschluss: "Ich war von Anfang an im Rechner. Neben mir sitzt übrigens noch
+ein Kollege."
+
+Interruptverwaltung: "Ihr steht aber nicht auf meiner Liste." 
+Interruptverwaltung an Windows: "Sag Du mal was."
+Windows: "Hoffentlich taucht nicht noch ein Drucker auf."
+Grafikkarte: "Der neue Treiber zuckt rum."
+Windows: "Da müssen wir halt den alten aus dem Ruhestand holen."
+Deinstallationsprogramm an neuen Treiber: "Scher dich fort." Unerwünschter
+Treiber: "Du kannst mich mal."
+Windows an Norton Utilities: "Killt ihn mitsamt seiner Brut!"
+Utilities an Treiberreste: "Sorry, wir müssen euch löschen."
+Wichtige Systemdatei: "Arrrrrrgghh!"
+Windows an blauen Bildschirm: "Gib´ durch, die Norton-Boys sind wieder mal übers
+Ziel hinaus geschossen."
+
+Blauer Bildschirm an User: "So, für diese Woche ist Schluss."
+
+%

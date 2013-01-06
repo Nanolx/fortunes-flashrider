@@ -1,0 +1,231 @@
+
+Kurztipp: Die geheimsten 3 Geheimtipps zu Linux
+Gesendet von demon am Mi, 1. Apr 2009 um 0:12
+
+Pro-Linux präsentiert Ihnen in unserem Kurztipp drei Hinweise, wie Sie
+Ihr System noch weiter optimieren und mit Linux schneller arbeiten können.
+
+Als Betreiber einer der bekanntesten Linux- und Open-Source-Webseite der
+Welt, und sofern uns keiner das Gegenteil beweisen kann, des Universums
+und aller anderen Dimensionen, sind wir uns unserer Verantwortung bewusst,
+die Leserschaft stets mit wichtigen Informationen zu beliefern. Während
+andere mit Fakten, Fakten und auch mal Fakten werben, wollen wir heute
+unsere Archive öffnen und drei der exklusivsten Tipps enthüllen.
+
+Anleitungen zum Bau einer Bombe gibt es bereits genug, genauso wie Tipps,
+Ihre Partnerschaft endgültig in den Sand zu setzen, weshalb wir, gewohnt
+kompetent und bestens informiert, uns dem Thema Linux widmen. In drei
+ußergewöhnlichen Tipps weisen wir Ihnen den Weg, das Potential ihres
+Systems besser ausschöpfen zu können. Doch urteilen Sie selbst.
+
+#3 Schneller Download von Dateien
+
+Kaum bekannt, aber dennoch sehr wirkungsvoll. Für den Download von Dateien
+empfiehlt sich der Besuch der Seite 127.0.0.1 und der Befehl »ssh«.
+Mittels des Kürzels ist es möglich, in Sekundenschnelle die besten
+Linux-Applikationen, Filme oder Lieder direkt von einer sich nie ändernden
+statischen Seite zu laden. Bei unserem Test lag die Geschwindigkeit in
+bis Dato nicht geahnten Sphären. Sie können ruhig den von uns bereits
+erstellten Account nutzen.
+
+Befehl:
+
+    # ssh 127.0.0.1 -l demon
+    password: mama
+    # ls -ltr
+    drwxr-xr-x  7 demon demon 4096 2009-02-23 02:55 Cracks
+    drwxr-xr-x  4 demon demon 4096 2009-02-24 05:68 Serialz
+    drwxr-xr-x  3 demon demon 4096 2009-03-10 02:29 Porno
+    drwxr-xr-x  3 demon demon 4096 2009-03-15 15:13 mp3
+    drwxr-xr-x  4 demon demon 4096 2009-03-24 22:39 Warez
+    drwxr-xr-x  6 demon demon 4096 2009-03-25 20:56 Windows 7
+    drwxr-xr-x  8 demon demon 4096 2009-03-29 15:44 linuX
+    drwxr-xr-x  8 demon demon 4096 2009-03-30 16:12 Ru110r $7uff
+
+#2 Schneller Backup
+
+Auch unter Linux gibt es wenig bekannte Befehle. Zu den unbekanntesten
+gehört zweifelsohne der Befehl »dd«, das uns nur durch Zufall aufgefallen
+ist. Die Beschreibung des Befehls ist ein wenig schwammig. Laut unseren
+Informationen »konvertiert und kopiert« dd Dateien. Doch weit gefehlt.
+Gewusst wie, und dd wird zu einem mächtigen Werkzeug für Backup, sofern
+die Syntax entschlüsselt ist. Zum Glück haben Sie uns. So machen Sie nun
+schnell und unkompliziert einen Backup ihrer Daten:
+
+    # dd if=IHRE_DATEI of=Backup
+
+Wiederholen Sie den Vorgang mit allen Ihren wichtigen Dateien und vergessen
+Sie nicht, Ihre Backups auf ein separates Medium zu speichern. Keiner kann
+so naiv sein und die Backups auf derselben Platte wie die Originaldateien
+abspeichern.
+
+#1 Linux individualisieren
+
+Sie kennen den Befehl »uname -a«? Schön für Sie, nur war das eine
+hypothetische Frage und sie können Ihre breit geschwellte Brust wieder
+einziehen, denn der eigentliche Tipp kommt erst. Haben Sie sich schon mal
+gefragt, woher die Informationen kommen?! Wir schon, und wir fanden heraus,
+dass sie direkt im Kernel stehen.
+
+Öffnen Sie dazu die Datei utsrelease.h im Verzeichnis
+/usr/src/linux/include/linux. Zwischen den Anführungszeichen finden Sie
+nun die Versionsnummer. In unserem Fall ist es »2.6.25.20-0.1-default«.
+Ändern Sie nun »-default« zum Beispiel in Ihren Namen, compilieren Sie
+den Kernel neu und booten das System. Nun führen Sie noch ein mal »uname -a«
+aus und sehen: » 2.6.25.20-0.1-demon«. Cool, oder?
+
+%
+
+RE: Die geheimsten 3 Geheimtipps zu Linux
+
+Gah, ich kann den 1. April nicht leiden
+Gesendet von panzi am Mi, 1. Apr 2009 um 0:30
+Wenigstens ist das so offensichtlich das ich mal NICHT darauf rein
+gefallen bin. Geht mir ja nicht oft so.
+
+%
+
+RE: Die geheimsten 3 Geheimtipps zu Linux
+
+Download
+Gesendet von neversfelde am Mi, 1. Apr 2009 um 0:56
+Der Tipp mit dem schnellen Download klappt bei mir leider nicht.
+Schade. Kann mir jemand helfen?
+
+  Re: Download
+  Gesendet von soriac am Mi, 1. Apr um 8:59
+
+  Schmeiss deinen AMD-Prozessor raus und kauf dich Intel, weil ein
+  Intel macht's Netz schneller, das weiss doch jeder schon seit Jahren :)
+
+    Re[2]: Dowsoriacnload
+    Gesendet von Nathan am Mi, 1. Apr um 18:12
+
+    Hey soriac,
+    bei mir gehts auch nicht, hab n windowsprozessor, muss ich jetzt
+    auch zu media markt und mir einen intel holen?
+
+      Re[3]: Dowsoriacnload
+      Gesendet von Burstl am Mi, 1. Apr um 19:02
+
+      Spar dir den Weg und das Geld, Intel-Prozessoren findest du
+      bei The Pirate Bay.
+%
+
+RE: Die geheimsten 3 Geheimtipps zu Linux
+
+Klappt nicht...
+Gesendet von Dubuntu am Mi, 1. Apr 2009 um 2:20
+Irgendwie klappen die Befehle nicht? Da kam eine Meldung "Permission denied"
+... was mache ich jetzt? Benutze DOSbuntu 5.0.
+
+Kann mir jemand weiterhelfen?
+
+  Re: Klappt nicht...
+  Gesendet von Retter in der Not am Mi, 1. Apr um 16:19
+
+  Hmm, die hast wohl noch das englische Format eingestellt. Umstellen
+ kannst du es ganz schnell mit
+
+  format c: -y
+
+  Der Smilie bewirkt, dass das System in Zukunft deutlich freundlichere
+  Rückfragen (z.b. beim Überschreiben) stellt.
+
+  PS: ist nicht Version 6.3 die aktuelle? Vllt. machst du besser mal ein dist-upgrade?
+
+%
+
+veraltet
+Gesendet von ichbin am Mi, 1. Apr 2009 um 2:23
+"Windows 7"? Ich bin schon bei "95"!
+
+%
+
+Re: Backup-Fehler
+Gesendet von DD ist nicht schnell am Mi, 1. Apr um 7:22
+
+dd if=/dev/zero of=/dev/null
+läuft immer noch..
+
+  Re[2]: Backup-Fehler
+  Gesendet von hjb am Mi, 1. Apr um 8:30
+
+  Für diese Anwendung wäre wohl rsync besser, weil es nur die Unterschiede überträgt.
+
+%
+
+Backup in Soundkartenspeicher
+Gesendet von vlo am Mi, 1. Apr 2009 um 9:43
+if=/home/vlo/pornos.tgz of=/dev/dsp
+
+Supergeheimtipp, um Daten in der Soundkarte zu speichern... da bekommt
+die nichtmal der schäuble wieder raus - und wenn man dabei die boxen laut
+hat, kommt geile noiZe avantgarde mukke!!1EINSELF
+
+%
+
+Windows und Diät
+Gesendet von Hans im Glück am Mi, 1. Apr 2009 um 10:50
+Beobachtet:
+
+Die Redakteure eines bestimmten Verlags, schreiben nicht nur die
+Zeitschrift für Windows, nein auch die Ausgabe für Frauen.
+
+Geheime Windows- und geheime Diättipps gehen Hand in Hand und haben
+mittlerweile ein Volumen das jede esoterische Buchhandlung übertrifft.
+Waren es am Anfang 4 Pfund in 4 Wochen, verliert man jetzt schon zwei Kilo
+nur durch den Kauf der Zeitschrift, weitere fünf nur durchs Lesen. Phänomenal!!
+Gleiches gilt für die Windowsausgabe, nach wöchentlich hunderten von geheimen,
+extrem sinnvollen!, Tipps zur Sicherheit, Tuning etc, jetzt - alleine durch den
+Kauf erwirbt man das Zertifikat Experte, lesen noch gar nicht mit inbegriffen.
+Da hinkt man als Linux Anwender natürlich meilenweit hinterher.
+Um so mehr bedanke ich mich bei Pro-Linux, sich endlich diesem Thema angenommen zu haben.
+
+%
+
+Re[3]: hAck
+Gesendet von soriac am Mi, 1. Apr um 9:38
+
+Ändere doch einfach deine IP, habe ich auch getan, ist jetzt 192.168.0.2,
+ausserdem ist 192 viel grösser als 127, also auch besser und sicherer;-)
+
+  Re[4]: hAck
+  Gesendet von Kryptochef-Fan am Mi, 1. Apr um 10:46
+
+  Vorsicht, Falle!
+
+  Für die 192 brauchste nen 256-bit Schlüssel, um eine echte Vollbitverschlüsselung
+  zu haben. Bei 127 reicht natürlich ein 128-Bit Schlüssel, also bleib lieber bei
+  127.0.0.1.
+
+    Re[5]: hAck
+    Gesendet von soriac am Mi, 1. Apr um 10:52
+
+    aber hast du erst mal Vollbit, hast du auch die ultimative, unknackbare
+    Verschlüsselung. Nicht-Vollbit, wie die 128er, ist doch grundsätzlich unsicher
+    und sollte nicht mehr genutzt werden. Wenn du es also sicher haben willst,
+    nimm also eine IP mit einer hohen Zahl, so 512.1024.0.1, das ist dichter dran
+    am Vollbit. Wie viele Bits das Vollbit hatte, weiss ich gerade nicht, ich glaube 0,3 Promille.
+
+      Re[6]: hAck
+      Gesendet von Andi am Mi, 1. Apr um 12:10
+
+      Habe da was von 7km/h gehört...
+
+	Re[7]: hAck
+        Gesendet von soriac am Mi, 1. Apr um 12:36
+
+        aber nur wochentags in einer Kindergartenzone.
+	  Re[8]: hAck
+          Gesendet von Andi am Mi, 1. Apr um 13:09
+
+          Hmmmmm. Jetzt bin ich durcheinander. Wäre es dann aber nicht ein Minibit?
+
+	    Re[9]: hAck
+            Gesendet von Yad Sloof Lirpa am Mi, 1. Apr um 13:26
+
+            Nein, ein Halbbit. Seit dem ST-Magazin am 1.4.1989 die erste Bitspaltung
+            gelungen ist, ist das heutzutage durchaus gängig.
+
+%
