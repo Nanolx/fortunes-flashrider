@@ -10,7 +10,7 @@ Architecture: all
 Depends: fortune-mod
 Description: Fortunes::Flashrider
   Folgende Pakete sind enthalten:
-   → ProLinux (512 Kekse)
+   → ProLinux (513 Kekse)
    → OpenPresse (72 Kekse)
    → LinuxForum (205 Kekse)
    → GermanBash (151 Kekse)
