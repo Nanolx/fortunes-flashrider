@@ -2,16 +2,16 @@ Source: fortunes-flashrider
 Section: games
 Priority: extra
 Maintainer: Christopher Roy Bratusek <nano@tuxfamily.org>
-Build-Depends: debhelper (>= 7), fortune-mod
-Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 8), fortune-mod
+Standards-Version: 3.9.4
 
 Package: fortunes-flashrider
 Architecture: all
 Depends: fortune-mod
-Replaces: fortunes-prolinux
-Description: Fortunes::Flashrider!
+Description: Fortunes::Flashrider
   Folgende Pakete sind enthalten:
-   → ProLinux (450 Kekse)
-   → OpenPresse (65 Kekse)
+   → ProLinux (512 Kekse)
+   → OpenPresse (72 Kekse)
    → LinuxForum (205 Kekse)
-   → GermanBash (131 Kekse)
+   → GermanBash (137 Kekse)
+   → WHB (44 Kekse)
