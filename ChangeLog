@@ -3,6 +3,7 @@ RELEASE::1.10
 *	   (PL/OP/LF/GB/WH)
 * Cookies: 512/73/205/137/44) (+62/+8/0/+6/+44)
 * Updated Debian packaging scripts
+* Less verbose Makefile
 
 RELEASE::1.00
 

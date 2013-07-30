@@ -24,20 +24,25 @@ BASEFILES_LINUXFORUM := \
        vermischtes linuxforen ostereier
 
 all: clean
-	@strfile germanbash germanbash.dat
-	@strfile whb whb.dat
+	@echo -ne "GermanBash Cookies:\t"
+	@strfile germanbash germanbash.dat | grep strings | gawk '{print $$3}'
+	@echo -ne "Wii Homebrew Cookies:\t"
+	@strfile whb whb.dat | grep strings | gawk '{print $$3}'
 	@for FILE in $(BASEFILES_PROLINUX); do \
 		cat prolinux/$$FILE >> prolinux/prolinux ;\
 	done
-	@strfile prolinux/prolinux prolinux/prolinux.dat
+	@echo -ne "ProLinux Cookies:\t"
+	@strfile prolinux/prolinux prolinux/prolinux.dat | grep strings | gawk '{print $$3}'
 	@for FILE in $(BASEFILES_OPENPRESSE); do \
 		cat openpresse/$$FILE >> openpresse/openpresse ;\
 	done
-	@strfile openpresse/openpresse openpresse/openpresse.dat
+	@echo -ne "OpenPresse Cookies:\t"
+	@strfile openpresse/openpresse openpresse/openpresse.dat | grep strings | gawk '{print $$3}'
 	@for FILE in $(BASEFILES_LINUXFORUM); do \
 		cat linuxforum/$$FILE >> linuxforum/linuxforum ;\
 	done
-	@strfile linuxforum/linuxforum linuxforum/linuxforum.dat
+	@echo -ne "LinuxForum Cookies:\t"
+	@strfile linuxforum/linuxforum linuxforum/linuxforum.dat | grep strings | gawk '{print $$3}'
 
 clean:
 	@rm -f germanbash{.dat,~}
