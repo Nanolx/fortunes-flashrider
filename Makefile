@@ -24,7 +24,7 @@ BASEFILES_OPENPRESSE := \
 
 BASEFILES_LINUXFORUM := \
        witze signaturen dau vertipper nicks\
-       vermischtes linuxforen linuxforum ostereier
+       vermischtes linuxforen ostereier
 
 all: clean
 	@echo -ne "GermanBash Cookies:\t"
