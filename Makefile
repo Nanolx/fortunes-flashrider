@@ -15,7 +15,7 @@ BASEFILES_PROLINUX := \
        2011.01 2011.02 2011.03 2011.04 2011.05 2011.06 2011.08 2011.09 2011.10 2011.11 2011.12\
        2012.01\
        2013.02\
-       2015.04
+       2015.03 2015.04
 
 BASEFILES_OPENPRESSE := \
        sprachkurse pressestimmen breakingnews\
@@ -24,7 +24,7 @@ BASEFILES_OPENPRESSE := \
 
 BASEFILES_LINUXFORUM := \
        witze signaturen dau vertipper nicks\
-       vermischtes linuxforen ostereier
+       vermischtes linuxforen linuxforum ostereier
 
 all: clean
 	@echo -ne "GermanBash Cookies:\t"

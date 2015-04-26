@@ -608,3 +608,24 @@ Mögliches Gentoo-Motto: #26367:
 "It's not like your processor has anything better to do"
 
 %
+
+Zitat von http://www.freebsd.org/doc/en_US.(...)/backup-basics.html
+
+19.12.6 Do Nothing
+
+"Do nothing" is not a computer program, but it is the most widely used backup
+strategy. There are no initial costs. There is no backup schedule to follow.
+Just say no. If something happens to your data, grin and bear it!
+
+If your time and your data is worth little to nothing, then "Do nothing" is
+the most suitable backup program for your computer. But beware, UNIX is a
+useful tool, you may find that within six months you have a collection of
+files that are valuable to you.
+
+"Do nothing" is the correct backup method for /usr/obj and other directory
+trees that can be exactly recreated by your computer. An example is the files
+that comprise the HTML or PostScript® version of this Handbook. These document
+formats have been created from SGML input files. Creating backups of the HTML
+or PostScript files is not necessary. The SGML files are backed up regularly.
+
+%
