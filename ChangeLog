@@ -1,7 +1,10 @@
 RELEASE::1.20
 
-*          (PL/OP/LF/GB/WH)
-* Cookies: 536/73/206/151/44 (+/////)
+*          PL  /OP  /LF  /GB  /WH  /DP
+* Cookies: 536 /  73/ 206/ 151/  45/  39
+*          +23 /  +0/  +1/  +0/  +1/ +39
+* Neue Cookies: DP / Der Postillon [#newstweet]
+* Makefile: Bash nicht erzwingen
 
 RELEASE::1.10
 
