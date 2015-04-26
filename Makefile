@@ -1,5 +1,3 @@
-SHELL=/bin/bash
-
 PREFIX = "/usr"
 INSTALLDIR = "/share/games/fortunes"
 DATADIR = "$(PREFIX)$(INSTALLDIR)"
@@ -27,25 +25,27 @@ BASEFILES_LINUXFORUM := \
        vermischtes linuxforen ostereier
 
 all: clean
-	@echo -ne "GermanBash Cookies:\t"
-	@strfile germanbash germanbash.dat | grep strings | gawk '{print $$3}'
-	@echo -ne "Wii Homebrew Cookies:\t"
+	@echo -n "GermanBash Cookies:	"
+	@strfile germanbash germanbash.dat | gawk '/strings/{print $$3}'
+	@echo -n "Wii Homebrew Cookies:	"
 	@strfile whb whb.dat | grep strings | gawk '{print $$3}'
 	@for FILE in $(BASEFILES_PROLINUX); do \
 		cat prolinux/$$FILE >> prolinux/prolinux ;\
 	done
-	@echo -ne "ProLinux Cookies:\t"
-	@strfile prolinux/prolinux prolinux/prolinux.dat | grep strings | gawk '{print $$3}'
+	@echo -n "ProLinux Cookies:	"
+	@strfile prolinux/prolinux prolinux/prolinux.dat | gawk '/strings/{print $$3}'
 	@for FILE in $(BASEFILES_OPENPRESSE); do \
 		cat openpresse/$$FILE >> openpresse/openpresse ;\
 	done
-	@echo -ne "OpenPresse Cookies:\t"
-	@strfile openpresse/openpresse openpresse/openpresse.dat | grep strings | gawk '{print $$3}'
+	@echo -n "OpenPresse Cookies:	"
+	@strfile openpresse/openpresse openpresse/openpresse.dat | gawk '/strings/{print $$3}'
 	@for FILE in $(BASEFILES_LINUXFORUM); do \
 		cat linuxforum/$$FILE >> linuxforum/linuxforum ;\
 	done
-	@echo -ne "LinuxForum Cookies:\t"
-	@strfile linuxforum/linuxforum linuxforum/linuxforum.dat | grep strings | gawk '{print $$3}'
+	@echo -n "LinuxForum Cookies:	"
+	@strfile linuxforum/linuxforum linuxforum/linuxforum.dat | gawk '/strings/{print $$3}'
+	@echo -n "Der Postillon Cookies:	"
+	@strfile postillon postillon.dat | gawk '/strings/{print $$3}'
 
 clean:
 	@rm -f germanbash{.dat,~}
@@ -54,14 +54,16 @@ clean:
 	@rm -f openpresse/{*.dat,openpresse,*~}
 	@rm -f linuxforum/{*.dat,linuxforum,*~}
 	@rm -f linuxforum/{*.dat,linuxforum,*~}
+	@rm -f postillon{.dat,~}
 
 install:
 	@mkdir -p $(DESTDIR)$(DATADIR)
-	@cp -v germanbash{,.dat} $(DESTDIR)$(DATADIR)
-	@cp -v whb{,.dat} $(DESTDIR)$(DATADIR)
-	@cp -v prolinux/prolinux{,.dat} $(DESTDIR)$(DATADIR)
-	@cp -v openpresse/openpresse{,.dat} $(DESTDIR)$(DATADIR)
-	@cp -v linuxforum/linuxforum{,.dat} $(DESTDIR)$(DATADIR)
+	@cp -v germanbash germanbash.dat $(DESTDIR)$(DATADIR)
+	@cp -v whb whb.dat $(DESTDIR)$(DATADIR)
+	@cp -v prolinux/prolinux prolinux/prolinux.dat $(DESTDIR)$(DATADIR)
+	@cp -v openpresse/openpresse openpresse/openpresse.dat $(DESTDIR)$(DATADIR)
+	@cp -v linuxforum/linuxforum linuxforum/linuxforum.dat $(DESTDIR)$(DATADIR)
+	@cp -v postillon postillon.dat $(DESTDIR)$(DATADIR)
 
 uninstall:
 	@rm -f $(DESTDIR)$(DATADIR)/germanbash*
@@ -69,3 +71,4 @@ uninstall:
 	@rm -f $(DESTDIR)$(DATADIR)/prolinux*
 	@rm -f $(DESTDIR)$(DATADIR)/openpresse*
 	@rm -f $(DESTDIR)$(DATADIR)/linuxforum*
+	@rm -f $(DESTDIR)$(DATADIR)/postillon*
