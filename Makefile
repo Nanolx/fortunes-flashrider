@@ -46,6 +46,10 @@ all: clean
 	@strfile linuxforum/linuxforum linuxforum/linuxforum.dat | gawk '/strings/{print $$3}'
 	@echo -n "Der Postillon Cookies:	"
 	@strfile postillon postillon.dat | gawk '/strings/{print $$3}'
+	@echo -n "Twitter Cookies:	"
+	@strfile twitter twitter.dat | gawk '/strings/{print $$3}'
+	@echo -n "Franken Cookies:	"
+	@strfile franken franken.dat | gawk '/strings/{print $$3}'
 
 clean:
 	@rm -f germanbash{.dat,~}
@@ -55,6 +59,8 @@ clean:
 	@rm -f linuxforum/{*.dat,linuxforum,*~}
 	@rm -f linuxforum/{*.dat,linuxforum,*~}
 	@rm -f postillon{.dat,~}
+	@rm -f twitter{.dat,~}
+	@rm -f franken{.dat,~}
 
 install:
 	@mkdir -p $(DESTDIR)$(DATADIR)
@@ -64,11 +70,15 @@ install:
 	@cp -v openpresse/openpresse openpresse/openpresse.dat $(DESTDIR)$(DATADIR)
 	@cp -v linuxforum/linuxforum linuxforum/linuxforum.dat $(DESTDIR)$(DATADIR)
 	@cp -v postillon postillon.dat $(DESTDIR)$(DATADIR)
+	@cp -v twitter twitter.dat $(DESTDIR)$(DATADIR)
+	@cp -v franken franken.dat $(DESTDIR)$(DATADIR)
 
 uninstall:
-	@rm -f $(DESTDIR)$(DATADIR)/germanbash*
-	@rm -f $(DESTDIR)$(DATADIR)/whb*
-	@rm -f $(DESTDIR)$(DATADIR)/prolinux*
-	@rm -f $(DESTDIR)$(DATADIR)/openpresse*
-	@rm -f $(DESTDIR)$(DATADIR)/linuxforum*
-	@rm -f $(DESTDIR)$(DATADIR)/postillon*
+	@rm -f $(DESTDIR)$(DATADIR)/germanbash{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/whb{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/prolinux{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/openpresse{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/linuxforum{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/postillon{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/twitter{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/franken{,.dat}
