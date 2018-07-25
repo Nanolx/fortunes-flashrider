@@ -51,6 +51,8 @@ all: clean
 	@strfile twitter twitter.dat | gawk '/strings/{print $$3}'
 	@echo -n "Franken Cookies:	"
 	@strfile franken franken.dat | gawk '/strings/{print $$3}'
+	@echo -n "ITSchlager Cookies:	"
+	@strfile itschlager itschlager.dat | gawk '/strings/{print $$3}'
 
 clean:
 	@rm -f germanbash{.dat,~}
@@ -62,6 +64,7 @@ clean:
 	@rm -f postillon{.dat,~}
 	@rm -f twitter{.dat,~}
 	@rm -f franken{.dat,~}
+	@rm -f itschlager{.dat,~}
 
 install:
 	@mkdir -p $(DESTDIR)$(DATADIR)
@@ -73,6 +76,7 @@ install:
 	@cp -v postillon postillon.dat $(DESTDIR)$(DATADIR)
 	@cp -v twitter twitter.dat $(DESTDIR)$(DATADIR)
 	@cp -v franken franken.dat $(DESTDIR)$(DATADIR)
+	@cp -v itschlager itschlager.dat $(DESTDIR)$(DATADIR)
 
 uninstall:
 	@rm -f $(DESTDIR)$(DATADIR)/germanbash{,.dat}
@@ -83,3 +87,4 @@ uninstall:
 	@rm -f $(DESTDIR)$(DATADIR)/postillon{,.dat}
 	@rm -f $(DESTDIR)$(DATADIR)/twitter{,.dat}
 	@rm -f $(DESTDIR)$(DATADIR)/franken{,.dat}
+	@rm -f $(DESTDIR)$(DATADIR)/itschlager{,.dat}
